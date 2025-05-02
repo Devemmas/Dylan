@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYLAN SCHNEIDER's Affinity Badge Portal | Apply for Your Digital Fan Badge</title>
+
+    <meta name="description" content="Apply for your official digital Affinity Badge for Dylan Schneider fan engagement. Secure, verifiable, and your key to exclusive content and events.">
+    <meta name="keywords" content="Dylan Schneider, Affinity Badge, Fan Portal, Digital Badge, Membership, Fan Club, Exclusive Content, Music Fan, Secure Badge, Digital Credential">
+    <meta name="author" content="[Your Name or Organization]">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <meta property="og:title" content="DYLAN SCHNEIDER's Affinity Badge Portal">
+    <meta property="og:description" content="Apply for your official digital Affinity Badge for Dylan Schneider fan engagement. Secure, verifiable, and your key to exclusive content and events.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="[Your Portal's Live URL]">
+    <meta property="og:image" content="https://kerryathompson.com/blog/best-practices-for-sizing-your-social-sharing-icon">
+    <meta property="og:image:alt" content="Dylan Schneider Affinity Badge Portal Logo or Hero Image">
+    <meta property="og:site_name" content="Dylan Schneider Official Portal">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="[@YourTwitterHandle]">
+    <meta name="twitter:title" content="DYLAN SCHNEIDER's Affinity Badge Portal">
+    <meta name="twitter:description" content="Apply for your official digital Affinity Badge for Dylan Schneider fan engagement. Secure, verifiable, and your key to exclusive content and events.">
+    <meta name="twitter:image" content="https://www.reddit.com/r/web_design/comments/ky1g61/how_to_share_an_image_to_twitter_through_a_link/">
+    <meta name="twitter:image:alt" content="Dylan Schneider Affinity Badge Portal Image">
+
+    <link rel="icon" href="https://www.w3schools.com/HTML/html_favicon.asp" type="image/x-icon">
+    <link rel="shortcut icon" href="https://www.w3schools.com/HTML/html_favicon.asp" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://forums.developer.apple.com/forums/thread/66275">
+    <link rel="mask-icon" href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html" color="[Theme Color]">
+    <meta name="theme-color" content="#0056b3"> <link rel="canonical" href="[Your Portal's Live URL]">
+
+    <style>
+        /* --- General Styles --- */
+        body {
+            font-family: 'Arial', sans-serif; /* Using a common sans-serif font */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh; /* Ensure body takes at least full viewport height */
+            display: flex; /* Use flexbox for sticky footer */
+            flex-direction: column; /* Arrange content vertically */
+        }
+
+        header {
+            background-color: #0056b3; /* Primary brand color */
+            padding: 1em 20px; /* Added horizontal padding */
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            display: flex; /* Use flexbox to center logo */
+            justify-content: center; /* Center logo horizontally */
+            align-items: center; /* Center logo vertically */
+        }
+
+        .header-logo img {
+            max-height: 60px; /* Control logo size */
+            width: auto;
+        }
+
+        /* Style for the long logo (default on larger screens) */
+        .header-logo .logo-long {
+             display: block; /* Show by default */
+        }
+
+         /* Style for the stacked logo (hidden by default) */
+        .header-logo .logo-stacked {
+             display: none; /* Hide by default */
+        }
+
+
+        nav {
+            background-color: #004494; /* Darker primary color */
+            padding: 0.5em 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex-wrap: wrap; /* Allow links to wrap on small screens */
+        }
+
+        .nav-links li {
+            margin: 0 1em;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.75em 1.5em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            display: block; /* Make entire link area clickable */
+            text-align: center;
+        }
+
+        .nav-links a:hover {
+            background-color: #003366; /* Even darker color on hover */
+        }
+
+         /* Style for active navigation link */
+         .nav-links a.active {
+             background-color: #003d80; /* Highlight active link */
+             font-weight: bold;
+         }
+
+
+        .container {
+            width: 95%;
+            max-width: 1200px; /* Increased max width */
+            margin: 2em auto;
+            background-color: white;
+            padding: 2em;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            flex: 1; /* Allow container to grow and push footer down */
+        }
+
+        section {
+            margin-bottom: 3em; /* Increased spacing between sections */
+            padding: 2em; /* Increased padding */
+            border: 1px solid #e0e0e0; /* Lighter border */
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+        }
+        section:last-child {
+            margin-bottom: 0; /* No margin after the last section */
+        }
+
+
+        h2, h3 {
+            color: #004494;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.75em; /* Increased padding */
+            margin-top: 0;
+            margin-bottom: 1em; /* Added bottom margin */
+        }
+
+        button {
+            background-color: #0056b3;
+            color: white;
+            padding: 0.75em 1.5em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            display: inline-block; /* Ensure padding works correctly */
+            text-align: center;
+        }
+        button:hover {
+            background-color: #003d80;
+        }
+         button:active {
+             transform: scale(0.98); /* Provide active feedback */
+         }
+
+
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+         input[type="tel"],
+        input[type="file"],
+        select,
+        textarea {
+            width: 100%; /* Make inputs take full width */
+            padding: 12px; /* Increased padding */
+            margin-bottom: 1.5em; /* Increased margin */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+            box-sizing: border-box; /* Include padding and border in element's total width */
+            transition: border-color 0.3s ease;
+        }
+         input[type="text"]:focus,
+         input[type="date"]:focus,
+         input[type="email"]:focus,
+         input[type="tel"]:focus,
+         input[type="file"]:focus,
+         select:focus,
+         textarea:focus {
+             outline: none;
+             border-color: #0056b3; /* Highlight focus */
+             box-shadow: 0 0 5px rgba(0, 86, 179, 0.3); /* Add a subtle shadow on focus */
+         }
+
+        input[type="checkbox"] {
+            margin-right: 0.5em;
+            vertical-align: middle; /* Align checkbox vertically with text */
+        }
+
+         label {
+             display: block;
+             margin-bottom: 0.8em; /* Increased margin */
+             font-weight: bold;
+             color: #555; /* Slightly lighter color for labels */
+         }
+
+
+        /* --- Welcome Page Specific Styles --- */
+        #welcome-section .hero-section {
+            text-align: center;
+            margin-bottom: 3em; /* Increased margin */
+        }
+        #welcome-section .hero-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Add shadow to image */
+        }
+
+        #welcome-section p {
+            font-size: 1.1em;
+            margin-bottom: 1.5em;
+        }
+        #welcome-section button {
+            margin-top: 1em;
+            padding: 1em 2em; /* Larger button */
+            font-size: 1.1em;
+        }
+
+
+        /* --- Application Form Specific Styles --- */
+        #application-form-section {
+            display: none; /* Hidden by default */
+        }
+         #application-form-section form div {
+             margin-bottom: 2em; /* Increased spacing between form sections */
+             padding-bottom: 1.5em; /* Add padding to bottom of sections */
+             border-bottom: 1px dashed #eee; /* Add dashed separator */
+         }
+         #application-form-section form div:last-child {
+              border-bottom: none; /* No border on the last section */
+              padding-bottom: 0;
+         }
+
+         .biometric-option {
+             border: 1px dashed #ccc;
+             padding: 1.5em; /* Increased padding */
+             margin-top: 1.5em;
+             border-radius: 6px;
+             background-color: #f9f9f9; /* Slightly different background */
+         }
+          .biometric-option label {
+              font-weight: normal; /* Labels inside option block might be less bold */
+              margin-bottom: 0.5em;
+          }
+
+          canvas#signatureCanvas {
+              border: 1px solid #000;
+              background-color: #fff;
+              cursor: crosshair;
+              display: block; /* Ensure canvas takes its own line */
+              margin-bottom: 0.8em; /* Space below canvas */
+              touch-action: none; /* Prevent scrolling/panning on touch */
+               max-width: 100%; /* Ensure canvas is responsive */
+               height: auto; /* Maintain aspect ratio */
+          }
+
+         button#clearSignature {
+             background-color: #ccc;
+             color: #333;
+             margin-top: 0.5em;
+         }
+          button#clearSignature:hover {
+              background-color: #bbb;
+          }
+
+
+        /* --- User Dashboard Specific Styles --- */
+        #dashboard-section {
+            display: none; /* Hidden by default */
+        }
+        #badge-status {
+             margin-bottom: 2em;
+        }
+
+        #digital-badge {
+             border: 2px solid #0056b3;
+             padding: 2em; /* Increased padding */
+             margin-top: 2em;
+             border-radius: 10px;
+             background-color: #eef7ff;
+             text-align: center;
+             box-shadow: 0 2px 8px rgba(0, 86, 179, 0.2); /* Shadow for badge block */
+        }
+        #digital-badge h3 {
+            border-bottom: 1px solid #b3d9ff;
+            padding-bottom: 1em;
+            margin-bottom: 1.5em;
+            color: #004494;
+        }
+        #digital-badge p {
+             font-size: 1.1em;
+             margin-bottom: 0.8em;
+        }
+
+        #qrCodeContainer img {
+             max-width: 150px; /* Increased QR code size */
+             height: auto;
+             margin: 1em auto;
+             border: 5px solid white; /* Add border to QR code */
+             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #digital-badge button {
+            margin: 0.5em; /* Space between badge buttons */
+        }
+
+
+         #exclusive-content, #profile-update {
+             margin-top: 3em; /* Increased margin */
+             border-top: 1px solid #eee;
+             padding-top: 2em; /* Increased padding */
+         }
+          #exclusive-content h3, #profile-update h3 {
+              border-bottom: 1px solid #eee; /* Lighter border for inner sections */
+              padding-bottom: 0.75em;
+              margin-bottom: 1.5em;
+          }
+
+          #exclusive-content ul {
+              list-style: disc;
+              padding-left: 25px; /* Increased padding */
+          }
+           #exclusive-content ul li {
+               margin-bottom: 0.8em; /* Space between list items */
+               font-size: 1.05em;
+           }
+           #exclusive-content ul li a {
+               color: #0056b3; /* Link color */
+               text-decoration: none;
+           }
+            #exclusive-content ul li a:hover {
+                text-decoration: underline;
+            }
+
+
+        /* --- Footer Styles --- */
+        footer {
+            text-align: center;
+            padding: 1.5em 20px; /* Added horizontal padding */
+            margin-top: 4em; /* Increased top margin */
+            background-color: #333;
+            color: white;
+            font-size: 0.9em;
+            flex-shrink: 0; /* Prevent footer from shrinking */
+        }
+         footer a {
+             color: #b3d9ff; /* Lighter link color */
+             text-decoration: none;
+         }
+         footer a:hover {
+             text-decoration: underline;
+         }
+         footer p {
+             margin: 0.5em 0; /* Space out footer text */
+         }
+
+
+        /* ============================================================== */
+        /* MEDIA QUERIES FOR 100% MOBILE RESPONSIVENESS */
+        /* ============================================================== */
+
+        /* --- Small Screens (e.g., Mobile Phones) --- */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5em; /* Reduce padding on small screens */
+                margin: 1.5em auto;
+            }
+
+             header {
+                 padding: 1em 15px;
+             }
+
+             .header-logo img {
+                 max-height: 45px; /* Smaller logo on mobile */
+             }
+
+             /* Show stacked logo, hide long logo on small screens */
+             .header-logo .logo-long {
+                 display: none;
+             }
+             .header-logo .logo-stacked {
+                 display: block;
+             }
+
+
+            nav {
+                 padding: 0.5em 15px;
+             }
+
+            .nav-links {
+                flex-direction: column; /* Stack navigation links vertically */
+                align-items: center; /* Center stacked links */
+            }
+            .nav-links li {
+                margin: 0.5em 0; /* Add vertical margin between stacked links */
+                width: 100%; /* Make links take full width */
+            }
+             .nav-links a {
+                 padding: 0.75em 0; /* Adjust padding for stacked links */
+             }
+
+
+            section {
+                padding: 1.5em; /* Reduce section padding */
+                margin-bottom: 2em;
+            }
+
+             h2, h3 {
+                 padding-bottom: 0.5em;
+                 margin-bottom: 0.8em;
+             }
+
+            input[type="text"],
+            input[type="date"],
+            input[type="email"],
+            input[type="tel"],
+            input[type="file"],
+            select,
+            textarea {
+                padding: 10px; /* Adjust input padding */
+                 margin-bottom: 1em;
+            }
+
+            canvas#signatureCanvas {
+                 width: 100%; /* Make canvas take full width */
+                 height: auto; /* Maintain aspect ratio (adjust if needed) */
+            }
+
+             #digital-badge {
+                 padding: 1.5em;
+             }
+              #qrCodeContainer img {
+                  max-width: 100px; /* Smaller QR code on mobile */
+              }
+              #digital-badge button {
+                   display: block; /* Stack badge buttons vertically */
+                   width: 100%; /* Make buttons take full width */
+                   margin: 0.5em 0; /* Adjust margin for stacked buttons */
+              }
+
+            footer {
+                padding: 1.5em 15px;
+            }
+        }
+
+        /* --- Medium Screens (e.g., Tablets) --- */
+        @media (min-width: 769px) and (max-width: 1024px) {
+             .container {
+                 width: 90%; /* Adjust width */
+                 padding: 1.8em;
+             }
+             header {
+                 padding: 1em 30px;
+             }
+              .header-logo img {
+                  max-height: 50px; /* Slightly smaller logo */
+              }
+             nav {
+                 padding: 0.5em 30px;
+             }
+             .nav-links li {
+                 margin: 0 0.8em; /* Adjust link spacing */
+             }
+             section {
+                 padding: 1.8em;
+                 margin-bottom: 2.5em;
+             }
+              #digital-badge {
+                  padding: 1.8em;
+              }
+               #qrCodeContainer img {
+                   max-width: 130px;
+               }
+             footer {
+                 padding: 1.5em 30px;
+             }
+        }
+
+        /* --- Large Screens (e.g., Desktops) --- */
+        @media (min-width: 1025px) {
+            /* Styles defined in the general section apply, potentially add more specific styles */
+        }
+
+
+        /* ============================================================== */
+        /* END OF CSS */
+        /* ============================================================== */
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-logo">
+            <img src="https://artists.bbrmusicgroup.com/app/build/dylanschneidermusic-com/assets/img/dylan-schneider-logo-long.png"
+                  alt="Dylan Schneider Logo (Long)" class="logo-long">
+            <img src="https://artists.bbrmusicgroup.com/app/build/dylanschneidermusic-com/assets/img/dylan-schneider-logo.png"
+                  alt="Dylan Schneider Logo (Stacked)" class="logo-stacked">
+        </div>
+        </header>
+
+    <nav>
+        <ul class="nav-links">
+             <li><a href="#welcome" onclick="showSection('welcome-section')">Welcome</a></li>
+             <li><a href="#apply" onclick="showSection('application-form-section')">Apply for Badge</a></li>
+             <li><a href="#dashboard" onclick="showSection('dashboard-section')">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="welcome-section">
+            <h2>Welcome to the Affinity Badge Portal</h2>
+            <p>Your secure digital credential for the ultimate fan experience.</p>
+
+            <div class="hero-section">
+                <img src="https://artists.bbrmusicgroup.com/app/uploads/sites/10/2024/09/DS-Puzzled-Main-Image-1500x1200-Website-1-768x614.jpg"
+                     alt="Dylan Schneider Puzzled Main Image" loading="lazy"> </div>
+
+            <p>The Affinity Badge is a modernized digital credential replacing traditional fan cards. It offers enhanced security and verifiability to combat misuse by scammers and fakers, while preserving all the benefits you've come to expect, such as exclusive content and access to events.</p>
+            <p>Ready to get your digital badge? The application process is simple and secure. Click below to begin.</p>
+
+            <button onclick="showSection('application-form-section')">Apply for Your Badge Now</button>
+
+            </section>
+
+        <section id="application-form-section">
+            <h2>Apply for Your Affinity Badge</h2>
+            <p>Please fill out the form below to apply for your digital badge. All information will be securely encrypted and verified.</p>
+
+            <form id="affinity-badge-form">
+                <div>
+                    <h3>Personal Information</h3>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required placeholder="Enter your full legal name">
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                         <option value="">Select Gender</option>
+                         <option value="male">Male</option>
+                         <option value="female">Female</option>
+                         <option value="non-binary">Non-binary</option>
+                         <option value="prefer-not-to-say">Prefer not to say</option>
+                    </select>
+
+                     <label for="nationality">Nationality:</label>
+                    <input type="text" id="nationality" name="nationality" required placeholder="Enter your nationality">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+                     <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="e.g., +1234567890">
+
+                    <label for="address">Residential Address:</label>
+                    <textarea id="address" name="address" rows="4" required placeholder="Enter your full residential address"></textarea>
+
+                     </div>
+
+                <div>
+                    <h3>Identification</h3>
+                    <p>Please upload clear scans or photos of the required documents.</p>
+
+                    <label for="govId">Upload Government-Issued ID (e.g., Driver's License, National ID):</label>
+                    <input type="file" id="govId" name="govId" accept=".jpg,.jpeg,.png,.pdf" required>
+                     <small>Accepted formats: JPG, PNG, PDF. Max file size: [Specify Size]</small><br><br>
+
+
+                    <label for="passportPhoto">Upload Recent Passport Photograph:</label>
+                    <input type="file" id="passportPhoto" name="passportPhoto" accept=".jpg,.jpeg,.png" required>
+                    <small>Accepted formats: JPG, PNG. Must be a recent, clear photo of your face.</small><br><br>
+
+                    </div>
+
+                <div>
+                     <h3>Biometric Verification</h3>
+                     <p>Please provide a recent photo for biometric verification. This helps enhance the security of your badge.</p>
+
+                     <p>Choose a method:</p>
+                     <input type="radio" id="biometricUploadRadio" name="biometricMethod" value="upload" checked>
+                     <label for="biometricUploadRadio">Upload a recent photo</label><br>
+                     <input type="radio" id="biometricCaptureRadio" name="biometricMethod" value="capture">
+                     <label for="biometricCaptureRadio">Capture live image using device camera</label><br><br>
+
+                     <div id="biometricUploadDiv" class="biometric-option">
+                          <label for="biometricPhotoUpload">Upload Photo:</label>
+                          <input type="file" id="biometricPhotoUpload" name="biometricPhotoUpload" accept=".jpg,.jpeg,.png">
+                           <small>Accepted formats: JPG, PNG.</small>
+                     </div>
+
+                      <div id="biometricCaptureDiv" class="biometric-option" style="display: none;">
+                          <p>Ensure good lighting and face the camera directly.</p>
+                          <video id="cameraFeed" width="320" height="240" autoplay style="border: 1px solid #ccc; display: block; margin: 0.5em auto;"></video>
+                          <button type="button" id="captureButton" style="display: block; margin: 0.5em auto;">Capture Photo</button>
+                           <canvas id="capturedPhotoCanvas" width="320" height="240" style="display: none; border: 1px solid #ccc; margin: 0.5em auto;"></canvas>
+                           <button type="button" id="retakeButton" style="display: none; margin: 0.5em auto;">Retake Photo</button>
+                          <input type="hidden" id="capturedBiometricPhotoData" name="capturedBiometricPhotoData">
+                      </div>
+                       <p id="cameraError" style="color: red; display: none; text-align: center;"></p>
+
+                </div>
+
+                <div>
+                     <h3>Digital Signature</h3>
+                      <p>Please provide your digital signature by drawing in the box below.</p>
+                      <canvas id="signatureCanvas" width="400" height="150" style="border: 1px solid #000; background-color: #fff; cursor: crosshair;"></canvas>
+                      <button type="button" id="clearSignature">Clear Signature</button>
+                       <input type="hidden" id="digitalSignatureData" name="digitalSignatureData">
+                      <br><br>
+                 </div>
+
+                <div>
+                    <h3>Additional Information (Optional)</h3>
+                     <label for="socialMedia">Social Media Handles:</label>
+                     <input type="text" id="socialMedia" name="socialMedia" placeholder="e.g., @username (mention platform)">
+
+                     <label for="preferredBadgeName">Preferred Badge Name:</label>
+                     <input type="text" id="preferredBadgeName" name="preferredBadgeName" placeholder="Name to appear on your badge">
+
+                     <label for="membershipTier">Membership Tier Selection:</label>
+                     <select id="membershipTier" name="membershipTier">
+                         <option value="">Select Membership Tier</option>
+                         <option value="standard">Standard</option>
+                         <option value="premium">Premium</option>
+                          </select>
+
+                     </div>
+
+                <div>
+                     <h3>Consent and Agreement</h3>
+                      <label for="consent">
+                         <input type="checkbox" id="consent" name="consent" required>
+                         I confirm that all information provided is true and accurate. I agree to the <a href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/" target="_blank">Terms and Conditions</a> and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank">Privacy Policy</a>.
+                      </label>
+                 </div>
+
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+
+         <section id="dashboard-section">
+            <h2>User Dashboard</h2>
+            <p>Welcome, <span id="dashboardUserName">[User Name Placeholder]</span>.</p>
+
+            <div id="badge-status">
+                <h3>Application Status</h3>
+                <p>Status: <span id="applicationStatus">[Status Placeholder]</span></p>
+                </div>
+
+             <div id="digital-badge" style="display: none;">
+                <h3>Your Digital Affinity Badge</h3>
+                <p>Badge ID: <span id="badgeId">[Badge ID Placeholder]</span></p>
+                <div id="qrCodeContainer" style="text-align: center;">
+                    <img id="badgeQrCode" src="https://via.placeholder.com/120?text=QR+Code" alt="QR Code Placeholder">
+                </div>
+                <p>Valid Until: <span id="badgeExpirationDate">[Expiration Date Placeholder]</span></p>
+                 <button id="downloadBadge">Download Badge (Image)</button>
+                 <button id="addToWallet">Add to Wallet (e.g., Apple Wallet, Google Pay - requires advanced integration)</button>
+             </div>
+
+             <div id="exclusive-content">
+                 <h3>Exclusive Content & Events</h3>
+                 <p>Based on your <span id="dashboardMembershipTier">[Membership Tier Placeholder]</span> tier:</p>
+                 <ul id="exclusiveContentList">
+                     <li>Placeholder Content Item</li>
+                 </ul>
+                  <p id="noExclusiveContent" style="display: none; font-style: italic; text-align: center;">No exclusive content available for your tier yet.</p>
+             </div>
+
+             <div id="profile-update">
+                 <h3>Profile and Settings</h3>
+                 <p>Review and update your personal information.</p>
+                 <button onclick="showSection('application-form-section')">Update My Information</button>
+                 </div>
+             </section>
+
+
+        </div>
+
+    <footer>
+        <p>&copy; 2023 DYLAN SCHNEIDER. All rights reserved.</p>
+         <p>
+              <a href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/" target="_blank">Terms and Conditions</a> |
+              <a href="https://policies.google.com/privacy?hl=en-US" target="_blank">Privacy Policy</a>
+         </p>
+         </footer>
+
+
+    <script>
+        // --- Global Variables and Utility Functions ---
+        let currentSectionId = 'welcome-section'; // Default section to show
+
+        // Function to show a specific section and hide others
+        function showSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none'; // Hide all sections
+            });
+
+            const targetSection = document.getElementById(sectionId);
+            if (targetSection) {
+                targetSection.style.display = 'block'; // Show the target section
+                currentSectionId = sectionId; // Update current section
+
+                 // Optional: Update URL hash without triggering navigation
+                 if (history.pushState) {
+                     history.pushState(null, '', `#${sectionId.replace('-section', '')}`);
+                 } else {
+                      window.location.hash = `#${sectionId.replace('-section', '')}`;
+                 }
+
+
+                // Trigger specific actions based on the shown section
+                if (sectionId === 'application-form-section') {
+                    // Initialize form-specific logic (e.g., camera, signature pad)
+                    initApplicationForm();
+                } else if (sectionId === 'dashboard-section') {
+                    // Load user specific dashboard data
+                    loadDashboardData();
+                     // Stop camera if it was running when leaving the form section
+                     stopCameraFeed();
+                } else { // For welcome or other sections
+                     // Stop camera if it was running
+                     stopCameraFeed();
+                }
+
+            } else {
+                console.error(`Section with ID "${sectionId}" not found.`);
+                // Fallback to welcome section or show an error
+                showSection('welcome-section');
+            }
+
+             // Basic navigation highlighting (needs refinement for dynamic active state)
+            document.querySelectorAll('nav a').forEach(link => {
+                const targetSectionFromLink = link.getAttribute('onclick').match(/'([^']+)'/);
+                 if (targetSectionFromLink && targetSectionFromLink[1] === sectionId) {
+                     link.classList.add('active'); // Add active class
+                 } else {
+                     link.classList.remove('active'); // Remove active class
+                 }
+            });
+        }
+
+         // --- Initial Setup on Page Load ---
+        document.addEventListener('DOMContentLoaded', () => {
+             // Determine initial section from URL hash or default to welcome
+             const initialSection = window.location.hash ? `${window.location.hash.substring(1)}-section` : 'welcome-section';
+             showSection(initialSection);
+
+              // Attach event listeners that don't depend on section visibility (e.g., form submission)
+              setupBiometricOptionListeners();
+              setupSignaturePadListeners();
+              setupFormSubmissionListener();
+               // Add other global or persistent event listeners here
+        });
+
+
+        // --- Code for Application Form Section ---
+
+         // Function to initialize form-specific state when the form section is shown
+         function initApplicationForm() {
+             console.log("Initializing Application Form section..."); // Debugging
+             // Ensure the correct biometric option is displayed on form section entry
+             const biometricMethodRadios = document.querySelectorAll('input[name="biometricMethod"]');
+             const biometricUploadDiv = document.getElementById('biometricUploadDiv');
+             const biometricCaptureDiv = document.getElementById('biometricCaptureDiv');
+
+             biometricMethodRadios.forEach(radio => {
+                  if (radio.checked) {
+                      if (radio.value === 'upload') {
+                          biometricUploadDiv.style.display = 'block';
+                          biometricCaptureDiv.style.display = 'none';
+                          stopCameraFeed(); // Stop camera if switching from capture or initial load
+                      } else {
+                          biometricUploadDiv.style.display = 'none';
+                          biometricCaptureDiv.style.display = 'block';
+                           // Start camera feed if capture is selected
+                          startCameraFeed();
+                      }
+                  }
+             });
+
+             // Reset signature pad if needed when entering form section
+             // clearSignature(); // Optional: uncomment to clear signature on form entry
+         }
+
+        // Set up listeners for biometric method radio buttons
+        function setupBiometricOptionListeners() {
+             const biometricMethodRadios = document.querySelectorAll('input[name="biometricMethod"]');
+             const biometricUploadDiv = document.getElementById('biometricUploadDiv');
+             const biometricCaptureDiv = document.getElementById('biometricCaptureDiv');
+             const cameraErrorDisplay = document.getElementById('cameraError');
+
+
+             biometricMethodRadios.forEach(radio => {
+                 radio.addEventListener('change', (event) => {
+                     if (event.target.value === 'upload') {
+                         biometricUploadDiv.style.display = 'block';
+                         biometricCaptureDiv.style.display = 'none';
+                         stopCameraFeed(); // Stop camera when switching to upload
+                         cameraErrorDisplay.style.display = 'none'; // Hide potential camera errors
+                     } else { // value is 'capture'
+                         biometricUploadDiv.style.display = 'none';
+                         biometricCaptureDiv.style.display = 'block';
+                         // Start camera feed when capture is selected
+                         startCameraFeed();
+                     }
+                 });
+             });
+        }
+
+
+        // Biometric Live Capture Logic
+        const cameraFeed = document.getElementById('cameraFeed');
+        const captureButton = document.getElementById('captureButton');
+        const capturedPhotoCanvas = document.getElementById('capturedPhotoCanvas');
+        const retakeButton = document.getElementById('retakeButton');
+        const capturedBiometricPhotoDataInput = document.getElementById('capturedBiometricPhotoData');
+        const context = capturedPhotoCanvas.getContext('2d');
+        const cameraErrorDisplay = document.getElementById('cameraError');
+        let stream; // To hold the camera stream
+
+        // Function to start accessing the user's camera
+        async function startCameraFeed() {
+             cameraErrorDisplay.style.display = 'none'; // Hide previous errors
+             // Check if camera feed is already active
+             if (stream && stream.active) {
+                  console.log("Camera feed already active.");
+                  cameraFeed.style.display = 'block';
+                  captureButton.style.display = 'block';
+                  capturedPhotoCanvas.style.display = 'none';
+                  retakeButton.style.display = 'none';
+                  return; // Don't request again
+             }
+
+             try {
+                 // Request access to the video stream
+                 stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                 cameraFeed.srcObject = stream; // Set the video source to the stream
+                 // Wait for video metadata to load to ensure dimensions are available
+                 cameraFeed.onloadedmetadata = () => {
+                     capturedPhotoCanvas.width = cameraFeed.videoWidth;
+                     capturedPhotoCanvas.height = cameraFeed.videoHeight;
+                     console.log(`Camera feed dimensions: ${cameraFeed.videoWidth}x${cameraFeed.videoHeight}`);
+                 };
+
+                 cameraFeed.style.display = 'block'; // Show the video element
+                 captureButton.style.display = 'block'; // Show the capture button
+                 capturedPhotoCanvas.style.display = 'none'; // Hide the canvas
+                 retakeButton.style.display = 'none'; // Hide the retake button
+                 console.log("Camera feed started successfully."); // Debugging
+             } catch (err) {
+                 console.error("Error accessing the camera: ", err);
+                 // Display a user-friendly error message
+                 cameraErrorDisplay.textContent = "Could not access camera. Please ensure permissions are granted or try uploading a photo instead.";
+                 cameraErrorDisplay.style.display = 'block';
+
+                 // Automatically switch to the upload option if camera access fails
+                 document.getElementById('biometricUploadRadio').checked = true;
+                 document.getElementById('biometricUploadRadio').dispatchEvent(new Event('change')); // Trigger change event to update UI
+             }
+        }
+
+        // Function to stop the camera stream
+        function stopCameraFeed() {
+            if (stream) {
+                 console.log("Stopping camera feed."); // Debugging
+                stream.getTracks().forEach(track => track.stop()); // Stop all tracks in the stream
+                stream = null; // Clear the stream variable
+            }
+             cameraFeed.srcObject = null; // Clear the video source
+        }
+
+        // Event listener for the capture button
+        captureButton.addEventListener('click', () => {
+            // Draw the current frame from the video onto the canvas
+            context.drawImage(cameraFeed, 0, 0, capturedPhotoCanvas.width, capturedPhotoCanvas.height);
+
+            // Stop the camera feed
+            stopCameraFeed();
+
+            // Hide the video feed and capture button, show the captured photo and retake button
+            cameraFeed.style.display = 'none';
+            captureButton.style.display = 'none';
+            capturedPhotoCanvas.style.display = 'block';
+            retakeButton.style.display = 'block';
+
+            // Store the image data from the canvas as a data URL
+            capturedBiometricPhotoDataInput.value = capturedPhotoCanvas.toDataURL('image/png');
+             console.log("Captured photo data stored in hidden input."); // Debugging
+        });
+
+        // Event listener for the retake button
+        retakeButton.addEventListener('click', () => {
+            // Clear the canvas
+            context.clearRect(0, 0, capturedPhotoCanvas.width, capturedPhotoCanvas.height);
+             // Clear the hidden input value
+            capturedBiometricPhotoDataInput.value = '';
+             console.log("Photo data cleared. Restarting camera."); // Debugging
+            // Restart the camera feed
+            startCameraFeed();
+        });
+
+
+        // Digital Signature Pad Logic
+        const signatureCanvas = document.getElementById('signatureCanvas');
+        const clearSignatureButton = document.getElementById('clearSignature');
+        const digitalSignatureDataInput = document.getElementById('digitalSignatureData');
+        const signatureContext = signatureCanvas.getContext('2d');
+        let isDrawing = false;
+        let lastX = 0;
+        let lastY = 0;
+
+         // Function to set up listeners for the signature pad
+         function setupSignaturePadListeners() {
+            // Set up drawing properties
+            signatureContext.lineWidth = 2;
+            signatureContext.lineCap = 'round';
+            signatureContext.strokeStyle = '#000';
+
+             // Adjust canvas size based on container width on load and resize
+             function resizeSignatureCanvas() {
+                 const containerWidth = signatureCanvas.parentElement.clientWidth;
+                 signatureCanvas.width = containerWidth > 400 ? 400 : containerWidth; // Max width 400px or container width
+                  signatureCanvas.height = 150; // Keep height fixed or make responsive too
+
+                  // Redraw signature if any existed (optional)
+                  // if (digitalSignatureDataInput.value) {
+                  //     const img = new Image();
+                  //     img.onload = () => {
+                  //          signatureContext.drawImage(img, 0, 0, signatureCanvas.width, signatureCanvas.height);
+                  //     }
+                  //     img.src = digitalSignatureDataInput.value;
+                  // } else {
+                      clearSignature(); // Clear on resize if no data or simpler to clear
+                  // }
+             }
+
+             // Initial resize and add listener
+             resizeSignatureCanvas();
+             window.addEventListener('resize', resizeSignatureCanvas);
+
+
+            // Helper function to get mouse/touch position relative to the canvas
+            function getPosition(event) {
+                 const rect = signatureCanvas.getBoundingClientRect(); // Get canvas position and size
+                 let clientX, clientY;
+
+                 if (event.touches) { // Handle touch events
+                     clientX = event.touches[0].clientX;
+                     clientY = event.touches[0].clientY;
+                 } else { // Handle mouse events
+                     clientX = event.clientX;
+                     clientY = event.clientY;
+                 }
+
+                 return {
+                     x: clientX - rect.left, // Calculate position relative to the canvas
+                     y: clientY - rect.top
+                 };
+            }
+
+            // Function to draw on the canvas
+            function draw(x, y) {
+                if (!isDrawing) return; // Only draw if the mouse/touch is down
+                signatureContext.beginPath(); // Start a new path
+                signatureContext.moveTo(lastX, lastY); // Move to the last recorded position
+                signatureContext.lineTo(x, y); // Draw a line to the current position
+                signatureContext.stroke(); // Render the path
+
+                // Update the last position
+                [lastX, lastY] = [x, y];
+            }
+
+            // --- Event Listeners for Drawing (handle both mouse and touch) ---
+
+            // Mouse Down or Touch Start: Start drawing
+            signatureCanvas.addEventListener('mousedown', (e) => {
+                isDrawing = true;
+                [lastX, lastY] = [getPosition(e).x, getPosition(e).y]; // Set the starting position
+                 console.log("Drawing started."); // Debugging
+            });
+             signatureCanvas.addEventListener('touchstart', (e) => {
+                isDrawing = true;
+                [lastX, lastY] = [getPosition(e).x, getPosition(e).y];
+                 e.preventDefault(); // Prevent scrolling when drawing on touch devices
+                 console.log("Touch drawing started."); // Debugging
+            }, { passive: false }); // Use passive: false to allow preventDefault
+
+
+            // Mouse Move or Touch Move: Draw the line segments
+            signatureCanvas.addEventListener('mousemove', (e) => draw(getPosition(e).x, getPosition(e).y));
+             signatureCanvas.addEventListener('touchmove', (e) => draw(getPosition(e).x, getPosition(e).y), { passive: false });
+
+            // Mouse Up or Touch End: Stop drawing
+            signatureCanvas.addEventListener('mouseup', () => {
+                isDrawing = false;
+                 // Store the signature data when drawing ends (optional, could also store on form submit)
+                storeSignatureData();
+                console.log("Drawing ended. Signature data stored."); // Debugging
+            });
+             signatureCanvas.addEventListener('touchend', () => {
+                 isDrawing = false;
+                 // Store the signature data when drawing ends
+                 storeSignatureData();
+                 console.log("Touch drawing ended. Signature data stored."); // Debugging
+             }, { passive: false });
+
+            // Mouse Out or Touch Cancel: Stop drawing if the cursor/finger leaves the canvas area
+            signatureCanvas.addEventListener('mouseout', () => {
+                if (isDrawing) { // Only store if drawing was in progress
+                   storeSignatureData();
+                   console.log("Drawing interrupted (mouseout). Signature data stored."); // Debugging
+                }
+                isDrawing = false;
+
+            });
+             signatureCanvas.addEventListener('touchcancel', () => {
+                if (isDrawing) { // Only store if drawing was in progress
+                   storeSignatureData();
+                   console.log("Drawing interrupted (touchcancel). Signature data stored."); // Debugging
+                }
+                 isDrawing = false;
+
+             }, { passive: false });
+
+
+            // Clear signature button logic
+            clearSignatureButton.addEventListener('click', () => {
+                clearSignature(); // Call the clear function
+                 console.log("Signature cleared."); // Debugging
+            });
+         }
+
+        // Function to clear the signature canvas and stored data
+        function clearSignature() {
+             signatureContext.clearRect(0, 0, signatureCanvas.width, signatureCanvas.height); // Clear the entire canvas
+             digitalSignatureDataInput.value = ''; // Clear stored data
+        }
+
+
+         // Function to store the signature from the canvas as a data URL
+         function storeSignatureData() {
+              // Check if anything was drawn (simple pixel check)
+              if (!isCanvasEmpty(signatureCanvas)) {
+                  digitalSignatureDataInput.value = signatureCanvas.toDataURL('image/png');
+              } else {
+                  digitalSignatureDataInput.value = ''; // Store empty if canvas is blank
+              }
+         }
+
+          // Helper function to check if the canvas is empty (simple pixel check)
+         function isCanvasEmpty(canvas) {
+             // This is a basic check and might need refinement for more accuracy
+             // Get image data from the canvas
+             const imageData = signatureContext.getImageData(0, 0, canvas.width, canvas.height);
+             const pixels = imageData.data; // This is a Uint8ClampedArray representing RGBA pixel data
+
+             // Iterate through pixels and check if any pixel has a non-zero alpha value (meaning it's not fully transparent background)
+             // We only need to check the alpha channel (every 4th element: pixels[3], pixels[7], pixels[11], ...)
+             for (let i = 3; i < pixels.length; i += 4) {
+                 if (pixels[i] !== 0) { // If alpha channel is not 0, something was drawn
+                     return false;
+                 }
+             }
+             return true; // All alpha values are 0, canvas is empty
+         }
+
+
+        // --- Form Submission Handling ---
+        const affinityBadgeForm = document.getElementById('affinity-badge-form');
+
+         // Function to set up the form submission listener
+         function setupFormSubmissionListener() {
+            affinityBadgeForm.addEventListener('submit', async (event) => {
+                event.preventDefault(); // Prevent default form submission
+
+                // --- Validation (Add Comprehensive Validation Here) ---
+                // Basic example validations:
+                const consentCheckbox = document.getElementById('consent');
+                if (!consentCheckbox.checked) {
+                    alert("Please agree to the Terms and Conditions and Privacy Policy.");
+                    return;
+                }
+
+                 const biometricMethodRadios = document.querySelectorAll('input[name="biometricMethod"]');
+                 const selectedBiometricMethod = document.querySelector('input[name="biometricMethod"]:checked');
+
+                 if (!selectedBiometricMethod) {
+                      alert("Please select a method for biometric verification.");
+                      return;
+                 }
+                 const biometricMethodValue = selectedBiometricMethod.value;
+                 let biometricPhotoData = null;
+
+                 if (biometricMethodValue === 'upload') {
+                     const uploadInput = document.getElementById('biometricPhotoUpload');
+                     if (uploadInput.files.length === 0) {
+                         alert("Please upload a biometric photo.");
+                         return;
+                     }
+                      biometricPhotoData = uploadInput.files[0]; // Get the File object
+                 } else if (biometricMethodValue === 'capture') {
+                     if (!capturedBiometricPhotoDataInput.value || capturedBiometricPhotoDataInput.value === '') { // Check if hidden input has data
+                          alert("Please capture a biometric photo using your camera.");
+                          return;
+                     }
+                      biometricPhotoData = capturedBiometricPhotoDataInput.value; // Get the Data URL
+                 } else {
+                      // Should not happen if radios are set up correctly, but as a fallback
+                      alert("Invalid method selected for biometric verification.");
+                      return;
+                 }
+
+
+                 if (!digitalSignatureDataInput.value || isCanvasEmpty(signatureCanvas)) {
+                      alert("Please provide your digital signature.");
+                      return;
+                 }
+
+
+                // --- Gather Form Data ---
+                const formData = new FormData();
+
+                // Append text inputs, selects, textareas, etc.
+                // Ensure IDs match names or adjust FormData logic accordingly
+                formData.append('fullName', document.getElementById('fullName').value);
+                formData.append('dob', document.getElementById('dob').value);
+                formData.append('gender', document.getElementById('gender').value);
+                formData.append('nationality', document.getElementById('nationality').value);
+                formData.append('email', document.getElementById('email').value);
+                formData.append('phone', document.getElementById('phone').value); // Use phone input ID
+                formData.append('address', document.getElementById('address').value);
+                formData.append('socialMedia', document.getElementById('socialMedia').value); // Optional
+                formData.append('preferredBadgeName', document.getElementById('preferredBadgeName').value); // Optional
+                formData.append('membershipTier', document.getElementById('membershipTier').value);
+                formData.append('consent', consentCheckbox.checked); // Boolean
+
+                 // Append uploaded files (Gov ID, Passport Photo)
+                 const govIdInput = document.getElementById('govId');
+                 if (govIdInput.files.length > 0) {
+                     formData.append('govId', govIdInput.files[0]);
+                 } else {
+                      alert("Please upload your Government ID."); return; // Added Required File Validation
+                 }
+
+                 const passportPhotoInput = document.getElementById('passportPhoto');
+                 if (passportPhotoInput.files.length > 0) {
+                     formData.append('passportPhoto', passportPhotoInput.files[0]);
+                 } else {
+                      alert("Please upload your Passport Photograph."); return; // Added Required File Validation
+                 }
+
+
+                // Append biometric photo data (handle upload vs capture)
+                 if (biometricMethodValue === 'upload' && biometricPhotoData instanceof File) {
+                     formData.append('biometricPhoto', biometricPhotoData); // Append the File object directly
+                 } else if (biometricMethodValue === 'capture' && typeof biometricPhotoData === 'string' && biometricPhotoData.startsWith('data:')) {
+                     // Convert data URL to Blob to append to FormData
+                     try {
+                         const byteString = atob(biometricPhotoData.split(',')[1]);
+                         const mimeString = biometricPhotoData.split(',')[0].split(':')[1].split(';')[0];
+                         const ab = new ArrayBuffer(byteString.length);
+                         const ia = new Uint8Array(ab); // Corrected Uint8Array
+                         for (let i = 0; i < byteString.length; i++) {
+                             ia[i] = byteString.charCodeAt(i);
+                         }
+                         const blob = new Blob([ab], {type: mimeString});
+                         formData.append('biometricPhoto', blob, 'captured_biometric.png'); // Append the Blob as a file
+                         console.log("Captured biometric photo appended as Blob."); // Debugging
+                     } catch (e) {
+                         console.error("Error converting captured photo data URL to Blob:", e);
+                         alert("Error processing captured photo data. Please try again or upload a photo.");
+                         return; // Stop submission
+                     }
+                 } else {
+                      // Should not happen based on validation, but as a fallback
+                     alert("Biometric photo data is not in a valid format.");
+                     return;
+                 }
+
+
+                 // Append signature data (as a Blob from the data URL)
+                 const signatureData = digitalSignatureDataInput.value;
+                 if (signatureData && signatureData.startsWith('data:')) {
+                     try {
+                         const byteString = atob(signatureData.split(',')[1]);
+                         const mimeString = signatureData.split(',')[0].split(':')[1].split(';')[0];
+                         const ab = new ArrayBuffer(byteString.length);
+                         const ia = new Uint8Array(ab);
+                         for (let i = 0; i < byteString.length; i++) {
+                             ia[i] = byteString.charCodeAt(i);
+                         }
+                         const blob = new Blob([ab], {type: mimeString});
+                         formData.append('digitalSignature', blob, 'signature.png'); // Append the Blob as a file
+                         console.log("Digital signature appended as Blob."); // Debugging
+                     } catch (e) {
+                          console.error("Error converting signature data URL to Blob:", e);
+                         alert("Error processing signature data. Please try again.");
+                         return; // Stop submission
+                     }
+                 } else {
+                      alert("Digital signature data is missing or invalid."); // Should be caught by earlier validation
+                      return;
+                 }
+
+
+                // --- Send Data to Backend ---
+                // Use fetch API to send the form data (including files)
+                // Replace '/api/applications' with the actual endpoint on your backend
+                const backendEndpoint = '/submit-form'; // Assuming your backend uses /submit-form
+
+                try {
+                    // Show loading indicator (optional)
+                    const submitButton = event.target.querySelector('button[type="submit"]');
+                    submitButton.disabled = true;
+                    submitButton.textContent = 'Submitting...';
+                    // Consider adding a visual spinner or overlay
+
+
+                    const response = await fetch(backendEndpoint, {
+                        method: 'POST',
+                        body: formData // FormData handles multipart/form-data for file uploads
+                         // Do NOT set Content-Type header manually with FormData, fetch does it correctly
+                    });
+
+                    submitButton.disabled = false;
+                    submitButton.textContent = 'Submit Application';
+                    // Remove loading indicator/spinner
+
+
+                    if (response.ok) { // Check if the response status is in the 200-299 range
+                        const result = await response.json(); // Assuming your backend responds with JSON
+                        console.log("Application submitted successfully:", result); // Debugging
+
+                        alert("Application submitted successfully! Your application is now under review.");
+
+                        // Reset the form (optional)
+                        affinityBadgeForm.reset();
+                        clearSignature(); // Clear signature canvas
+                        stopCameraFeed(); // Stop camera if it was active
+                        // Hide camera feed and canvas, show video/capture button
+                        cameraFeed.style.display = 'block'; // Or initial state based on radio
+                         captureButton.style.display = 'block'; // Or initial state
+                         capturedPhotoCanvas.style.display = 'none';
+                         retakeButton.style.display = 'none';
+                        capturedBiometricPhotoDataInput.value = '';
+
+
+                        // Navigate to dashboard or update UI to show success
+                        showSection('dashboard-section'); // Example: navigate to dashboard after submission
+                        // Update dashboard status based on the response or a default
+                         document.getElementById('applicationStatus').textContent = result.status || 'Submitted'; // Assuming backend returns a status like { status: 'Submitted' }
+
+
+                    } else {
+                        // Handle errors from the backend (e.g., validation errors, server errors)
+
+                        // Check for specific HTTP statuses first
+                        if (response.status === 401) {
+                             console.warn("Authentication failed during form submission (401).");
+                             alert("Session expired or authentication failed. Please log in again.");
+                             // Redirect to a login page or the welcome page which might have login
+                             showSection('welcome-section'); // Assuming welcome page can act as login/entry
+                             return; // Stop further error processing
+                        }
+                         if (response.status === 403) {
+                             console.warn("Access denied during form submission (403).");
+                             alert("You do not have permission to submit this form.");
+                             return; // Stop further error processing
+                         }
+                         if (response.status === 400) {
+                              // Handle Bad Request, likely validation errors or missing files caught on backend
+                              const errorData = await response.json(); // Try to parse error as JSON
+                              console.error('Application submission failed (400 Bad Request):', errorData); // Debugging
+                              let errorMessage = 'Submission failed due to invalid data.';
+                              if (errorData && errorData.errors && Array.isArray(errorData.errors)) {
+                                  // Handle express-validator errors
+                                  errorMessage += '\nValidation Errors:\n';
+                                  errorData.errors.forEach(err => {
+                                      // Use .msg and .param (or .path) from express-validator error object
+                                      const param = err.param || err.path;
+                                      const msg = err.msg || 'Invalid value';
+                                      errorMessage += `- ${msg}${param ? ' for "' + param + '"' : ''}\n`;
+                                  });
+                              } else if (errorData && errorData.error) {
+                                  // Handle general backend errors (like missing files from backend check)
+                                  errorMessage += ` Error: ${errorData.error}`;
+                              } else {
+                                  errorMessage += ` Status: ${response.status}. Check console for details.`;
+                              }
+                              alert(errorMessage);
+                              return; // Stop further error processing
+                         }
+
+
+                        // Handle other non-OK statuses (500 Internal Server Error, etc.)
+                        const errorData = await response.json(); // Try to parse error as JSON
+                        console.error('Application submission failed (Non-OK status):', response.status, errorData); // Debugging
+
+                        let errorMessage = `Application submission failed. Status: ${response.status}.`;
+                        if (errorData && errorData.error) { // Assuming backend sends a general error field
+                             errorMessage += ` Error: ${errorData.error}`;
+                        } else {
+                             errorMessage += ' An unexpected error occurred. Please try again.';
+                        }
+
+                        alert(errorMessage); // Display generic error message to the user
+                    }
+
+                } catch (error) {
+                    // Handle network errors or issues with the fetch request itself
+                    console.error('Error during form submission (Network or Fetch):', error);
+                     const submitButton = event.target.querySelector('button[type="submit"]');
+                     submitButton.disabled = false;
+                     submitButton.textContent = 'Submit Application';
+                    alert('A network error occurred during submission. Please check your connection and try again.');
+                }
+            });
+         }
+
+
+        // --- Code for User Dashboard Section ---
+        // (This section will need JavaScript to fetch user data, badge status, etc. from the backend)
+
+        function loadDashboardData() {
+            console.log("Attempting to load dashboard data..."); // Debugging
+            // This function should be called when the dashboard section becomes visible.
+            // It needs to fetch user-specific data from the backend using an authenticated request.
+
+             // Example: Fetch user data and badge info from backend API
+             // Assuming you have an endpoint like /api/user/dashboard that requires authentication
+             fetch('/api/user/dashboard') // Replace with your actual backend endpoint
+                 .then(response => {
+                      // Always check response.ok first, but also check status for specific handling
+                      if (response.status === 401) {
+                          console.warn("Authentication failed during dashboard data fetch (401).");
+                          alert("Session expired or authentication required. Please log in to view your dashboard.");
+                          // Redirect to a login page or the welcome page which might have login
+                          showSection('welcome-section'); // Assuming welcome page can act as login/entry
+                          // Throw an error to stop the promise chain from continuing
+                          throw new Error('Unauthorized access to dashboard.');
+                      }
+                       if (response.status === 403) {
+                           console.warn("Access denied during dashboard data fetch (403).");
+                           alert("You do not have permission to view the dashboard.");
+                            // Maybe redirect to a restricted page or welcome page
+                           showSection('welcome-section');
+                           throw new Error('Access forbidden to dashboard.');
+                       }
+
+
+                     if (!response.ok) {
+                          // Handle other non-OK statuses before trying to parse JSON
+                          console.error(`Dashboard data fetch failed: HTTP status ${response.status}`);
+                          throw new Error(`HTTP error! status: ${response.status}`);
+                     }
+                     return response.json(); // Assuming your dashboard endpoint returns JSON
+                 })
+                 .then(data => {
+                     console.log("Dashboard data received:", data); // Debugging
+
+                     // --- Update UI elements with fetched data ---
+
+                     // Update User Name
+                     document.getElementById('dashboardUserName').textContent = data.user && data.user.name ? data.user.name : 'User';
+
+                     // Update Application Status
+                     document.getElementById('applicationStatus').textContent = data.application && data.application.status ? data.application.status : 'Status Unknown';
+
+                     // Display badge if available and approved
+                     if (data.badge && data.badge.id && data.badge.expirationDate && data.application && data.application.status === 'Approved') {
+                         document.getElementById('digital-badge').style.display = 'block';
+                         document.getElementById('badgeId').textContent = data.badge.id;
+                         document.getElementById('badgeExpirationDate').textContent = data.badge.expirationDate;
+
+                         // Generate and display QR code
+                         // You'll need a client-side QR code generation library (e.g., qrcode.js) included via a script tag in <head> or before this script block.
+                         // For now, use the provided placeholder or a data URL/URL from backend
+                         const qrCodeImg = document.getElementById('badgeQrCode');
+                         const qrCodeContainer = document.getElementById('qrCodeContainer');
+                         const qrCodeData = data.badge.qrCodeData || data.badge.id || 'Badge data not available'; // Data to encode in QR
+
+
+                         if (typeof QRCode !== 'undefined') { // Check if a QR code library like qrcode.js is available (Note: capitalization might vary)
+                             console.log("Attempting to generate QR code with data:", qrCodeData); // Debugging
+
+                             qrCodeContainer.innerHTML = ''; // Clear previous content in the container
+
+                              try {
+                                  // Use the QR code library to generate the QR code inside the container div
+                                  new QRCode(qrCodeContainer, {
+                                     text: qrCodeData,
+                                     width: 120, // Match CSS size or adjust
+                                     height: 120, // Match CSS size or adjust
+                                     colorDark : "#000000",
+                                     colorLight : "#ffffff",
+                                     correctLevel : QRCode.CorrectLevel.H // High error correction
+                                  });
+                                   console.log("QR code generated successfully."); // Debugging
+                                   // Hide the placeholder image since the QR code is generated in the container div
+                                  qrCodeImg.style.display = 'none';
+
+                              } catch (e) {
+                                  console.error("Error generating QR code:", e); // Handle potential QR code generation errors
+                                  // Display an error message or fallback image
+                                  qrCodeContainer.innerHTML = '<p style="color: red; text-align: center;">Error generating QR code.</p>';
+                                   qrCodeImg.style.display = 'none'; // Ensure placeholder is still hidden
+                              }
+
+                         } else {
+                             console.warn("QR code library (e.g., qrcode.js) not found. Cannot generate QR code dynamically. Displaying placeholder or backend provided image.");
+                              // Fallback to backend provided URL or placeholder if no library or generation fails
+                              qrCodeImg.src = data.badge.qrCodeUrl || 'https://via.placeholder.com/120?text=QR+Code';
+                              qrCodeImg.style.display = 'block'; // Show the image element
+                              qrCodeContainer.innerHTML = ''; // Clear the container div
+                              qrCodeContainer.appendChild(qrCodeImg); // Append the image back to the container div
+                         }
+
+
+                     } else {
+                         document.getElementById('digital-badge').style.display = 'none'; // Hide badge if not approved or data missing
+                          console.log("Badge not displayed (not approved or data missing)."); // Debugging
+                     }
+
+                     // Populate exclusive content area
+                     const exclusiveContentList = document.getElementById('exclusiveContentList');
+                     exclusiveContentList.innerHTML = ''; // Clear previous list content
+                     const exclusiveContentData = data.exclusiveContent || []; // Assuming content data is in data.exclusiveContent
+
+                     if (exclusiveContentData.length > 0) {
+                         exclusiveContentData.forEach(item => {
+                             const li = document.createElement('li');
+                              li.textContent = item.title || 'Untitled Content'; // Assuming content items have a 'title' field
+                              // Add links or more details if item has a URL or description
+                              if (item.url) {
+                                  const a = document.createElement('a');
+                                  a.href = item.url;
+                                  // Optional: Add target="_blank" to open links in new tab
+                                  // a.target = "_blank";
+                                  a.textContent = item.title || item.url; // Use title or URL for link text
+                                  li.innerHTML = ''; // Clear li content before adding link
+                                  li.appendChild(a); // Add link element to the list item
+                              }
+                             exclusiveContentList.appendChild(li); // Append the list item to the UL
+                         });
+                         document.getElementById('exclusive-content').style.display = 'block'; // Show the exclusive content section
+                         document.getElementById('noExclusiveContent').style.display = 'none'; // Hide 'no content' message
+                         console.log("Exclusive content loaded:", exclusiveContentData.length, "items."); // Debugging
+                     } else {
+                          // If no content, still show the section header but display the 'no content' message
+                          document.getElementById('exclusive-content').style.display = 'block';
+                          exclusiveContentList.innerHTML = ''; // Ensure list is empty
+                          document.getElementById('noExclusiveContent').style.display = 'block'; // Show 'no content' message
+                           console.log("No exclusive content available."); // Debugging
+                     }
+
+                     // Ensure profile update section is shown
+                     const profileUpdateDiv = document.getElementById('profile-update');
+                     if (profileUpdateDiv) {
+                          profileUpdateDiv.style.display = 'block';
+                          console.log("Profile update section displayed."); // Debugging
+                          // Add logic here to populate update form if needed, potentially linking to user data (data.user)
+                     }
+
+
+                 })
+                 .catch(error => {
+                     // This catch handles errors from the fetch itself (network issues)
+                     // or errors thrown in the .then block (like the 'Unauthorized access' error)
+                     console.error('Error fetching dashboard data (Catch block):', error);
+
+                     // Error message was already handled for specific statuses (401, 403) in the .then block before the throw.
+                     // For other fetch errors (e.g., network down) or unexpected errors thrown within .then:
+                     // Check if the error is one we already handled specifically (e.g., by checking the error message)
+                     const specificErrorHandled = error.message.includes('Unauthorized access to dashboard.') || error.message.includes('Access forbidden to dashboard.');
+
+                     if (!specificErrorHandled) {
+                          // If it's not a specifically handled error, display a generic message
+                          alert('An error occurred while loading dashboard data. Please try again.');
+                           document.getElementById('applicationStatus').textContent = 'Error loading data.';
+                           document.getElementById('digital-badge').style.display = 'none'; // Hide sections that depend on loaded data
+                           document.getElementById('exclusive-content').style.display = 'none';
+                           document.getElementById('profile-update').style.display = 'none';
+                     }
+                      // If it was a specifically handled error (like 401), the alert and redirect already happened.
+
+                 });
+        }
+
+        // Add event listeners or functions to trigger dashboard data loading when the section is shown
+        // This is already integrated into the showSection function.
+
+
+        // --- Add logic for Terms and Conditions and Privacy Policy links ---
+        // These links now point to placeholder URLs.
+        // You MUST replace these with actual URLs where your legal documents are hosted.
+        // Alternatively, you could change the `href` to '#' and add JavaScript event listeners to open legal text in modals or new tabs.
+
+
+        // --- Download Badge Button Logic (Placeholder) ---
+        // This will need to generate an image of the digital badge or link to one.
+        document.getElementById('downloadBadge').addEventListener('click', () => {
+            // You would implement logic here to generate a downloadable image of the badge
+            // This might involve rendering the badge elements onto a canvas or fetching a pre-rendered image from the backend.
+            alert('Download badge functionality not yet implemented.'); // Placeholder
+        });
+
+        // --- Add to Wallet Button Logic (Placeholder) ---
+        // This requires integration with mobile wallet APIs (Apple Wallet PassKit, Google Pay API for Passes) which is complex.
+        document.getElementById('addToWallet').addEventListener('click', () => {
+             // This functionality requires significant backend and potentially third-party service integration.
+            alert('Add to wallet functionality not yet implemented.'); // Placeholder
+        });
+
+
+        // --- End of ALL INLINE JAVASCRIPT CODE ---
+    </script>
+
+    </body>
+</html>

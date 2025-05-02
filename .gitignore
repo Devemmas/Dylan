@@ -1,0 +1,39 @@
+# --- Dependencies ---
+/node_modules/
+/vendor/ # If using PHP/Composer
+
+# --- Build Artifacts ---
+/dist/
+/build/
+/out/
+
+# --- Environment Variables ---
+.env
+.env.* # Ignore all files starting with .env
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# --- Operating System Files ---
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# --- IDE Specific Files (Examples) ---
+.vscode/ # VS Code
+.idea/   # IntelliJ IDEA
+*.iml    # IntelliJ IDEA
+
+# --- Compiled/Generated Files ---
+__pycache__/ # Python
+*.pyc # Python
+*.class # Java
+
+# --- Uploads (if stored locally, often better in cloud storage) ---
+/uploads/
+
+# --- Database backups/dumps (generally should not be in Git) ---
+*.sql.gz
+*.sql
+*.bak
